@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title>
+    <title>Table</title> 
+    <style>
+        table, th, td{
+
+            border: 1px solid black;
+          border-collapse: collapse;
+          border-color: red;
+          border-radius: 10px;
+          border-style: dotted;
+          tr:nth-child(even) 
+
+        }
+
+
+    </style>
 </head>
 <body>
-    <table border="1" padding="4">
-        <thead>
+    <table>
+      
             <th>names</th>
             <th>marks</th>
             <th>score</th>
 
-        </thead>
-        <tbody>
+  
+      
         <tr>
-            <td>nayana</td>
+            <td style="width: 50%;">nayana</td>
             <td>456</td>
             <td>pass</td>
         </tr>
@@ -29,7 +43,7 @@
             <td>600</td>
             <td>fail</td>
         </tr>
-        </tbody>
+ 
     </table>
 </body>
 </html>
